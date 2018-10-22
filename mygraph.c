@@ -74,8 +74,6 @@ int main(int argc, char *argv[])
   flag = -1;
   while (flag != 0)
   {
-    //printGraph(mainGraph);
-
     printf("Enter a command:\n");
 
     fgets(user_input, MAX_INPUT, stdin);

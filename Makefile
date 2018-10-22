@@ -1,6 +1,6 @@
 OBJS 	= mygraph.o graph_interface.o
 SOURCE	= mygraph.c graph_interface.c
-HEADER  = graph_interface.h defines.h
+HEADER  = graph_interface.h mytypes.h
 OUT  	= mygraph
 CC	= gcc
 FLAGS   = -g -c

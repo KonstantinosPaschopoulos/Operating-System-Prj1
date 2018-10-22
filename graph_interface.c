@@ -264,29 +264,6 @@ void deleteEdge(graphptr mainGraph, Tag ni, Tag nj, edgeWeight w){
   flag = 0;
 
   Edge ** edges_ptr;
-  /*
-  edges_ptr = &(niNode->edges);
-  while (*edges_ptr != NULL)
-  {
-    if (strcmp((**edges_ptr).dest->name, nj) == 0)
-    {
-      printf("Del-vertex |%s|->%d->|%s|\n", ni, (**edges_ptr).weight, nj);
-      flag = 1; //found at least one edge to delete
-      tmp = *edges_ptr;
-      *edges_ptr = tmp->next;
-      free(tmp);
-      if (w != -1)
-      {
-        printf("Del-vertex |%s|->%d->|%s|\n", ni, w, nj);
-        return;
-      }
-    }
-    else
-    {
-      edges_ptr = &((**edges_ptr).next);
-    }
-  }
-  */
 
   if (w != -1)
   {
